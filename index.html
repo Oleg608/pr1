@@ -1,21 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./index.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <h1>header1</h1>
+    <h3>Резюме</h3>
+    <p>ФИО: Сарана Олег Олегович</p>
+    <p>Год рождения: 20.06.2001</p>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, numquam.
-      Saepe cum exercitationem facere, doloribus dolore architecto dignissimos
-      delectus unde id est fugit nemo ipsa cumque dolor corrupti vero. Impedit
-      architecto distinctio eum at saepe, nam vel, dolorum suscipit dignissimos
-      minima modi, sunt quaerat non rem nihil similique illo inventore.
+      Соц. сети: <a href="https://www.instagram.com/6415_oleg/">Instagram</a>
     </p>
-    <a href="./pages/about.html">About</a>
-    <br />
-    <a href="./pages/contacts.html">Contacts</a>
+    <p>
+      В ходе курса "Full Stack JS developer" от Freshcode я получу знания за
+      такой программой:
+    </p>
+    <h3>Linux</h3>
+    <ul>
+      <li>Введение в ОС</li>
+      <li>Навигация по файловой системе</li>
+      <li>Поиск файлов</li>
+      <li>Установка необходимого ПО через консоль</li>
+      <li>Create, copy, move, delete файлов и папок</li>
+      <li>Варианты работы с текстом (чтение, редактирование)</li>
+      <li>
+        Управление процессами. Запуск. Остановка. Фоновые процессы. Сигналы.
+      </li>
+      <li>Модель прав доступа в Linux. Управление доступом</li>
+      <li>Системная и сетевая документация</li>
+    </ul>
+    <h3>GIT</h3>
+    <ul>
+      <li>Введение. Установка. Настройки профиля</li>
+      <li>Игнорирование файлов</li>
+      <li>Назначение, основные возможности и команды</li>
+      <li>
+        Отмена изменений. Изменение последнего коммита. Отмена индексации файла.
+        Отмена изменений файла. Выбор ревизии
+      </li>
+      <li>Ветвление. Слияние. Управление ветками</li>
+      <li>Работа с удалёнными репозиториями</li>
+    </ul>
+    <h3>HTML5</h3>
+    <ul>
+      <li>Введение в HTML. Структура HTML</li>
+      <li>Элементы и атрибуты. Изображения. Ссылки. Таблицы. Формы. Фреймы.</li>
+      <li>Модели контента</li>
+      <li>Семантическая верстка</li>
+    </ul>
+    <h3>CSS3</h3>
+    <ul>
+      <li>Введение в CSS</li>
+      <li>Интегрированный и внешний CSS</li>
+      <li>CSS правила и фильтры, селекторы</li>
+      <li>Каскадирование и наследование</li>
+      <li>Работа с текстом</li>
+      <li>Свойства. Блоковая модель</li>
+      <li>Позиционирование и разметка</li>
+      <li>Техники адаптивной верстки</li>
+      <li>Ускорение разработки. SASS</li>
+    </ul>
+    <h3>JavaScript</h3>
+    <div class="js_left_right">
+      <div class="left">
+        <ul>
+          <li>Введение в JS</li>
+          <li>Основные понятия:</li>
+          <ul>
+            <li>Переменные</li>
+            <li>Типы данных</li>
+            <li>
+              Математические операторы. Операторы присваивания. Операторы
+              сравнения.
+            </li>
+          </ul>
+          <li>Условия и циклы</li>
+          <li>Функции. Рекурсия. Замыкания. Функции обратного вызова</li>
+          <li>Объекты. Понятие Прототип</li>
+          <li>Встроенные объекты:</li>
+          <ul>
+            <li>Array</li>
+            <li>Maths</li>
+            <li>Date</li>
+            <li>Number</li>
+          </ul>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li>DOM и события</li>
+          <li>ECMAScript 6:</li>
+          <ul>
+            <li>Деструктуризация</li>
+            <li>Функции. Стрелочные функции</li>
+            <li>Rest & spread</li>
+            <li>Классы ES6</li>
+            <li>Map & set</li>
+            <li>Итераторы</li>
+            <li>Promise. Async awai</li>
+          </ul>
+          <li>Таймеры, интервалы</li>
+          <li>Правила форматирования кода:</li>
+          <ul>
+            <li>
+              Отладка в браузере. Консоль. Точки остановки. Команда Debugger
+            </li>
+            <li>
+              Стиль кода. Синтаксис. Автоматизированные Способы проверки
+              (Линтеры)
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Базы данных</h3>
+    <ul>
+      <li>Введение в теорию баз данных</li>
+      <li>Установка сервера БД</li>
+      <b><li>Реляционные базы данных. PostgreSQL:</li></b>
+      <ul>
+        <li>Типы связей</li>
+        <li>Нормализация</li>
+        <li>Команды DDL. Создание и удаление баз данных и таблиц</li>
+        <li>Команды DML.Запросы SELECT, INSERT, UPDATE, DELETE</li>
+        <li>
+          Понятие группировки. Агрегатные функции. Операторы GROUP BY и HAVING
+        </li>
+        <li>Подзапросы</li>
+        <li>Соединение таблиц. INNER / OUTER JOIN. UNION, EXCEPT, INTERSECT</li>
+        <li>Принципы ACID</li>
+      </ul>
+      <b><li>Нереляционные базы данных. MongoDB:</li></b>
+      <ul>
+        <li>Введение в MongoDB</li>
+        <li>Устройство базы данных. Документы</li>
+        <li>Установка и администрирование базы данных</li>
+        <li>Добавление данных. Выборка из БД.</li>
+        <li>Агрегация и группировка</li>
+        <li>Операторы выборки</li>
+        <li>Обновление данных</li>
+        <li>Удаление данных</li>
+        <li>Удаление документов</li>
+      </ul>
+    </ul>
+    <b><p>Клиент-серверное взаимодействие</p></b>
+    <ul>
+      <li>Сетевые модели. OSI. TCP/IP</li>
+      <li>HTTP. Методы. Коды состояний. Заголовки</li>
+      <li>URL</li>
+      <li>Способы передачи данных</li>
+      <li>REST</li>
+      <li>Теория WebSocket. Long Polling</li>
+    </ul>
+    <h3>Node.js</h3>
+    <ul>
+      <li>Модули</li>
+      <li>NPM. Package.json. Установка модулей. Основные команды</li>
+      <li>Асинхронность</li>
+      <li>Качество кода, форматирование</li>
+      <li>Работа с файлами</li>
+      <li>Сron job</li>
+      <li>Express:</li>
+      <ul>
+        <li>Маршрутизация. Пути маршрутов</li>
+        <li>
+          Промежуточные обработчики. Объекты request, response. Функция next
+        </li>
+        <li>Обработка ошибок</li>
+        <li>Практика WebSocket. Long Polling</li>
+      </ul>
+    </ul>
+    <h3>React.js</h3>
+    <ul>
+      <li>Введение. JSX. VDOM</li>
+      <li>Компоненты. Жизненный цикл. Props. State</li>
+      <li>Качество кода. Форматирование</li>
+      <li>Проблемы с зацикливанием, частым перерендером компонента</li>
+      <li>
+        Поток данных. Передача данных Parent-Child, Child-Parent, Child-Child
+      </li>
+      <li>Обработка событий</li>
+      <li>Условный рендеринг. Фрагменты</li>
+      <li>Списки и ключи</li>
+      <li>Hooks</li>
+    </ul>
+    <h3>Redux. React-Redux</h3>
+    <ul>
+      <li>Мотивация. Основные возможности</li>
+      <li>Поток данных. Store Action Reducer</li>
+      <li>Redux-Saga. Интеграция с React. Конфигурация и настройки</li>
+    </ul>
+    <h3>Docker</h3>
+    <ul>
+      <li>Введение. Установка и настройка окружения Docker</li>
+      <li>Сборка и запуск программы. Команды Dockerfile</li>
+    </ul>
+    <h3>Unit-тесты</h3>
+    <ul>
+      <li>Концепция unit-тестов</li>
+      <li>Библиотека Mocha</li>
+    </ul>
+    <h3>Проект</h3>
+    <p>
+      Последний месяц обучения посвящен 100% практике и систематизации
+      полученных знаний и навыков. Студенты под руководством преподавателя
+      выполняют учебный проект на основе реального заказа из архива IT-компании.
+      Таким образом, они тренируются выполнять задачи, с которыми сталкивается
+      Junior разработчик.
+    </p>
   </body>
 </html>

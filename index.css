@@ -1,0 +1,20 @@
+p,
+ul {
+  text-align: left;
+  margin-left: 40px;
+  width: 80%;
+  color: #1b1919;
+}
+h3 {
+  color: #1b1919;
+}
+.js_left_right {
+  display: flex;
+}
+.left,
+.right {
+  width: 400px;
+}
+body {
+  background-color: #f7f8f8;
+}
